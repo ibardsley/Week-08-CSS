@@ -57,8 +57,9 @@ body {
     list-style: none;
 }
 
-.Links div > ul > li:hover {
+.Links div > ul > li > a:hover {
     background-color: lightcoral;
+    color: aqua;
     transition: .3s ease-in-out;
 }
 
@@ -201,6 +202,7 @@ footer > #Links {
 }
 
 footer > #Links > a:hover {
-    background-color: lightcoral;
+    background-color: black;
     transition: .3s ease-in-out;
+    color: lightcoral;
 }
